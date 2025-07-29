@@ -27,8 +27,7 @@ A Python utility to split a 3×3 grid of stickers into individual PNGs, automati
 
 2. Install dependencies (tested with Python 3.9+):
 ```bash
-  pip install Pillow numpy opencv-python
-
+pip install Pillow numpy opencv-python
 
 How It Works
 Sample Background Color
@@ -48,5 +47,6 @@ For each region, crop out its bounding box, then make transparent only those bac
 
 Save PNGs
 Export each cleaned sticker as sticker_<row>_<col>.png with a transparent background.
+
 ```bash
 python crop_stickers.py
